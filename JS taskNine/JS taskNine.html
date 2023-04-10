@@ -1,0 +1,79 @@
+<html>
+    <head>
+        <script src="./assets/js/JS taskNine.js"></script>
+        <link rel="stylesheet" href="./assets/css/JS taskNine.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Show current date and time</h1>
+            <div class="buttonContainer">
+                <button class="button show" onclick="dateFunction()">Show</button>
+                <button class="button reset" onclick="resetFunction()">Reset</button>
+            </div>
+            <div class="contentContainer">
+                <div class="datetimeContainer">
+                    <div class="textboxContainer">
+                        <input class="text" type="text" id="showYear">
+                        <label class="date">/</label>
+                        <div class="labelContainer">
+                            <label>Year</label>
+                        </div>
+                    </div>
+                    <div class="textboxContainer">
+                        <input class="text" type="text" id="showMonth">
+                        <label class="date">/</label>
+                        <div class="labelContainer">
+                            <label>Month</label>
+                        </div>
+                    </div>
+                    <div class="textboxContainer">
+                        <input class="text" type="text" id="showDate">
+                        <label class="date">/</label>
+                        <div class="labelContainer">
+                            <label>Date</label>
+                        </div>
+                    </div>
+                    <div class="textboxContainer">
+                        <input class="text" type="text" id="showHours">
+                        <label class="date">:</label>
+                        <div class="labelContainer">
+                            <label>Hour</label>
+                        </div>
+                    </div>
+                    <div class="textboxContainer">
+                        <input class="text" type="text" id="showMinutes">
+                        <label class="date">:</label>
+                        <div class="labelContainer">
+                            <label>Minutes</label>
+                        </div>
+                    </div>
+                    <div class="textboxContainer">
+                        <input class="text" type="text" id="showSeconds">
+                        <label class="date">:</label>
+                        <div class="labelContainer">
+                            <label>Seconds</label>
+                        </div>
+                    </div>
+                    <div class="textboxContainer">
+                        <input class="text" type="text" id="showMilliseconds">
+                        <div class="labelContainer">
+                            <label>Milliseconds</label>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h2>Local time :</h2>
+                    <p id="showLocaltime"></p>
+                </div>
+                <div>
+                    <h2>UTC time :</h2>
+                    <p id="showUtc"></p>
+                </div>
+                <div>
+                    <h2>UTC Millisecond :</h2>
+                    <p id="showUtcmilli"></p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

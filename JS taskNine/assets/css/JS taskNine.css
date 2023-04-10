@@ -1,0 +1,68 @@
+.container
+{
+    margin:10% auto;
+    width:70%;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    border: 3px solid brown;
+    border-radius: 10px;
+}
+h1
+{
+    text-align: center;
+}
+p
+{
+    font-size: 24px;
+}
+.textboxContainer
+{
+    width:13%;
+}
+.datetimeContainer
+{
+    display:flex;
+}
+.text
+{
+    height:40px;
+    width:50%;
+    text-align: center;
+}
+.date
+{
+    padding:0px 10px 0px 20px;
+}
+.button
+{
+    height:40px;
+    width:10%;
+    font-size: 20px;
+    text-align: center;
+    margin:1% auto;
+    border:none;
+    border-radius: 10px;
+    color:white;
+}
+.show
+{
+    background-color:rgb(77, 230, 77);
+}
+.reset
+{
+    background-color: red;
+}
+.buttonContainer
+{
+    height:30px;
+    text-align: center;
+    margin-bottom: 5%;
+}
+.labelContainer{
+    font-size:20px;
+    padding: 10px 0px 20px 7px;
+}
+.contentContainer
+{
+    margin-left: 25px;
+}

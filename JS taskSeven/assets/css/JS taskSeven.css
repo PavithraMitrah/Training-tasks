@@ -1,0 +1,59 @@
+h2
+{
+    text-align: center;
+}
+.container
+{
+    width:40%;
+    margin:10% auto;
+    background-color:rgb(197, 197, 132);
+    border: 2px solid black;
+    border-radius: 30px;
+}
+#demo
+{
+    font-size: 20px;
+    text-align: center;
+    height:10px;
+    padding-top: 10px;
+}
+.formContainer
+{
+    margin:10px 20px;
+}
+.textboxContainer{
+    display:flex;
+    margin: 0% 20%;
+    text-align: center;
+}
+.text
+{
+    font-size: 25px;
+}
+input[type=text]
+{
+    height:60%;
+    width:95%;
+    border:1px groove black;
+}
+.buttonsContainer
+{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.button
+{
+    height:25px;
+    width:65px;
+    color: white;
+    border-radius: 5px;
+}
+.submitbutton
+{
+    background-color: green;
+}
+.resetButton
+{
+    background-color: red;
+}

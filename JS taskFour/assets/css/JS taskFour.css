@@ -1,0 +1,42 @@
+.heading
+{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+.container
+{
+    background-color:thistle;
+    border:2px solid black;
+    width:40%;
+    margin: 10% auto;
+}
+.sentence{
+    font-size: 20px;
+}
+.inputfield{
+    text-align: center;
+    margin-top: 35px;
+    padding-top:30px;
+    height: 50px;
+}
+input[type=text]{
+    width:50%;
+    height:70%;
+}
+.button{
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 25px;
+}
+.click{
+    background-color: green;
+}
+.reset{
+    background-color: red;
+}
+.submit{
+    color:white;
+    height:30px;
+    width:70px;
+}
