@@ -1,0 +1,18 @@
+var string;
+var boolean;
+string = "aaaaa";
+boolean = false;
+var any = "zzzzz";
+var nullValue = null;
+var undefinedValue = undefined;
+var object = {};
+var array = ["aa"];
+var y = 1;
+console.log("String : ", string);
+console.log("Boolean : ", boolean);
+console.log("Any : ", any);
+console.log("nullValue : ", nullValue);
+console.log("undefinedValue : ", undefinedValue);
+console.log("Object :", object);
+console.log("Array : ", array);
+console.log("Union : ", y);

@@ -1,0 +1,12 @@
+"use strict";
+exports.__esModule = true;
+var moduleOne_1 = require("./moduleOne");
+var Ename = new moduleOne_1.name();
+var employeeName = { name: "pav", age: 12 };
+console.log("User name: ", Ename.nameValidate(employeeName));
+var employeeEmail = { email: "pav@gmail.com" };
+console.log("User email :", Ename.emailValidate(employeeEmail));
+var employeePassword = { password: "123@Mp321" };
+console.log("User password: ", Ename.passwordValidate(employeePassword));
+console.log(Ename.checkValidation(employeeName, employeeEmail, employeePassword));
+console.log(Ename.add(11, 1));

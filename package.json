@@ -1,0 +1,22 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"tsc tsOne.ts && node tsOne.js",
+    "tsTwo":"tsc tsTwo.ts && node tsTwo.js",
+    "types":"tsc tsTypes.ts && node tsTypes.js",
+    "array":"tsc array.ts &&node array.js",
+    "module":"tsc moduleTwo.ts && node moduleTwo.js",
+    "msg":"tsc msgTwo.ts && node msgTwo.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ts": "^0.2.2",
+    "tsc": "^2.0.4"
+  }
+}
