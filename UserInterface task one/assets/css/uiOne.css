@@ -1,0 +1,130 @@
+h1{
+    margin: 0px;
+    padding: 0px;
+}
+.hospitalForm
+{
+    background-color:#3c576c;
+    font-family:'arial';
+    width: 100%;
+    margin-top: 40px;
+}
+.container
+{
+    background-color:#3c576c;
+    width:100%;
+    height: 780px;
+    margin:auto;
+    padding:90px 0px 0px 0px;
+    color:white;
+}
+.imageContainer
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:50%;
+    margin: auto;
+}
+.image
+{
+    height: 116px;
+    width:90px;
+}
+.headingOne
+{
+    font-size:39px; 
+
+}
+.hospital
+{
+    font-size:54px;
+}
+.headingTwo
+{
+    text-align: center;
+    font-size:30px;
+}
+.headingThree
+{
+    text-align:center;
+    font-size:18px;
+    padding:18px;
+}
+.formContainer
+{
+    text-align:left;
+    font-size:12px;
+    width:55%;
+    margin:auto;
+    padding:0px 50px;
+}
+.location
+{
+    padding:6px 2px ;
+    margin-bottom:10px;
+}
+.secondInput
+{
+    display:inline-flex;
+    margin:20px 0px 10px 0px;
+    width:100%;
+    gap:20px;
+    align-items: center;
+}
+.userDetail
+{
+    flex:50%;
+}
+.inputField
+{
+    border-style:hidden hidden groove hidden;
+    border-width: thin;
+    outline:none;
+    background-color:#3c576c;
+    width:100%;
+    border-color: white;
+    margin-top:15px;
+}
+.inputFieldTwo
+{
+    margin-top:5px;
+}
+#address{
+    margin-bottom: 0px;
+}
+.headingFour
+{
+    margin-bottom: 0%;
+    font-size: 12px;
+}
+input[type="date"]
+{
+    color:gray;
+}
+.userSubdetail
+{
+    font-size:11px;
+}
+#dob{
+    width:80%;
+    padding-bottom: 6px;
+}
+#calc{
+    padding-bottom: 0px;
+}
+.img{
+    width:27px;
+    height:18px;
+    padding-left:7px;
+    margin-left: 10px;
+    background-color: white;;
+    display:inline-flex;
+    border-radius: 20px;
+}
+.calender{
+    height:17px;
+    width:19px;
+}
+
+
